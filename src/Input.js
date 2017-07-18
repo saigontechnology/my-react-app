@@ -1,4 +1,5 @@
-export default class Input extends Component {
+import React from 'react'
+export default class Input extends React.Component {
   render() {
     return <div>
           <input value={this.props.newTodo} onChange={this.props.onChangeTodo}/> 

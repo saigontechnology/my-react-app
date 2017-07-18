@@ -1,4 +1,5 @@
-export default class TodoList extends Component{
+import React from 'react'
+export default class TodoList extends React.Component{
   renderTodos(todos){
     return todos.map((todo, i) => <li key={i}>
       <input value={todo} onChange={(e) => this.props.onChangeTodo(e,i)}/>

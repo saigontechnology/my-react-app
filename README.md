@@ -12,5 +12,10 @@
   |_________________________________________|
 ````
 
+## Your machine must have:
+* NodeJS
+* Yarn
+
 ## NPM Commands:
+* `yarn`
 * `yarn start`
